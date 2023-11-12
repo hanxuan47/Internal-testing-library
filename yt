@@ -1,3 +1,7 @@
+*********************************************
+
 ^http[s]?:\/\/h5\.xiaoshuss\.com\/api\/member\/login\? url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/ytsp.js
 
 hostname = h5.xiaoshuss.com
+
+****************************/
