@@ -1,3 +1,7 @@
+# 配置维护: 棜先生
+# 拉取作者：Yuheng0101
+# 更新时间: 2023-11-21
+# 建议将172.233.81.206设置为直连：IP-CIDR, 172.233.81.206/24, DIRECT
 
 [rewrite_local]
 ^https?:\/\/sadaslvcxjiaa\.vip\/front\/media\/(getMediaById|listShortVideoRandom) url script-request-header https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/SFSP/crack.js
