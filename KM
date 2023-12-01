@@ -7,4 +7,4 @@
 ^https?:\/\/(kmppi.zhihuibafang.xyz)\/(video\/getInfo|common\/getNewAnnou|user\/getDetail) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/KM/crack.js
 
 [mitm]
-hostname = kmppi.zhihuibafang.xyz
+hostname = kmppi.zhihuibafang.xyz 
