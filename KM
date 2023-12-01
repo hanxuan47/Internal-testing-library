@@ -1,0 +1,17 @@
+# 配置维护: 棜先生
+# 拉取作者：Yuheng0101
+# 更新时间: 2023-12-1
+# 添加个人服务器走直连
+# HOST-KEYWORD, yuheng, DIRECT
+# IP-CIDR, 172.233.81.206/24, DIRECT
+
+[rewrite_local]
+# 去广告
+^https?:\/\/(kmppi.zhihuibafang.xyz)\/common\/get(Ad|Banner)List url reject-200
+# 免登录
+^https?:\/\/(kmppi.zhihuibafang.xyz)\/video\/(getUrl|getInfo) url script-request-header https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/KM/auto-login.js
+# 解锁视频
+^https?:\/\/(kmppi.zhihuibafang.xyz)\/(video\/getInfo|common\/getNewAnnou|user\/getDetail) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/KM/crack.js
+
+[mitm]
+hostname = kmppi.zhihuibafang.xyz
