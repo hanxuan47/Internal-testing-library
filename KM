@@ -1,3 +1,4 @@
+
 [rewrite_local]
 # 去广告
 ^https?:\/\/(kmppi.zhihuibafang.xyz)\/common\/get(Ad|Banner)List url reject-200
