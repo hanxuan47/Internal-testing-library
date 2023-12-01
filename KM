@@ -3,6 +3,7 @@
 # 更新时间: 2023-12-1
 # 软件下载：https://app.kmkk105.com/m.html?agentId=false
 # 添加个人服务器走直连：HOST-KEYWORD, yuheng, DIRECT/IP-CIDR, 172.233.81.206/24, DIRECT
+
 [rewrite_local]
 # 去广告
 ^https?:\/\/(kmppi.zhihuibafang.xyz)\/common\/get(Ad|Banner)List url reject-200
