@@ -2,7 +2,7 @@
 # 拉取作者: Yuheng0101
 # 更新时间: 2023-12-1
 # 下载地址: https://bit.ly/46Hv6BT
-# 食用前必须导入分流规则: https://gist.githubusercontent.com/Yuheng0101/a7a432754e79bf2f653e2fb6ec1aa8ea/raw/DIRECT.list
+
 [rewrite_local]
 # 去广告
 ^https?:\/\/(kmppi.zhihuibafang.xyz)\/common\/get(Ad|Banner)List url reject-200
