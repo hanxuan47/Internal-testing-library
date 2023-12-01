@@ -1,8 +1,6 @@
 # 配置维护: 棜先生
 # 拉取作者：Yuheng0101
 # 更新时间: 2023-12-1
-# 软件下载：https://app.kmkk105.com/m.html?agentId=false
-# 添加个人服务器走直连：HOST-KEYWORD, yuheng, DIRECT/IP-CIDR, 172.233.81.206/24, DIRECT
 
 [rewrite_local]
 # 去广告
